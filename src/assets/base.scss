@@ -1,0 +1,51 @@
+@import "colors";
+
+body {
+  background-color: #EDF1F2;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#app {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-family: "Open Sans", sans-serif;
+  color: $font_color;
+}
+
+a{
+  color: $blue;
+  text-decoration:none;
+  &:hover{
+    color:$green;
+  }
+}
+
+h1 {
+}
+
+.animated-short {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+ul {
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+.nav{
+  padding:1em;
+  background-color:white;
+ a{
+   color: $font_color;
+   &:hover{
+     cursor: pointer;
+     text-shadow: 0px 0px 2px rgba(86, 106, 117, 0.3);
+   }
+ }
+}

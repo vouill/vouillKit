@@ -1,0 +1,24 @@
+.h-equal-list {
+  display: flex;
+  & > li {
+    flex-grow: 1;
+  }
+  & > ul {
+    flex-grow: 1;
+  }
+}
+
+.h-list {
+  display: flex;
+  li {
+    margin: 0 1em;
+  }
+}
+
+.h-list--end {
+  display: flex;
+  justify-content: flex-end;
+  li {
+    margin: 0 1em;
+  }
+}

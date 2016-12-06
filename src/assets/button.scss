@@ -1,0 +1,68 @@
+@import 'colors';
+
+.v-bttn {
+  background-color: $default;
+  border: none;
+  color: white;
+  padding: 1em 1.5em;
+  //margin:0.5em;
+
+  text-align: center;
+  transition: all 0.1s;
+  box-shadow: 0px 3px 0px darken($default, 10%);
+  cursor: pointer;
+  &:active {
+    background-color: darken($default, 10%);
+    transform: translateY(3px);
+    box-shadow: none;
+  }
+
+  &--success {
+    background-color: $green;
+    box-shadow: 0px 3px 0px darken($green, 10%);
+    &:active {
+      background-color: darken($green, 10%);
+      box-shadow: none;
+    }
+  }
+
+  &--danger {
+    background-color: $red;
+    box-shadow: 0px 3px 0px darken($red, 20%);
+    &:active {
+      background-color: darken($red, 20%);
+      box-shadow: none;
+    }
+  }
+
+  &--warning {
+    background-color: $orange;
+    box-shadow: 0px 3px 0px darken($orange, 20%);
+    &:active {
+      background-color: darken($orange, 20%);
+      box-shadow: none;
+    }
+  }
+
+  &--disabled {
+    color: #A4A4A4;
+    background-color: $disabled;
+    box-shadow: 0px 3px 0px darken($disabled, 0%);
+    &:active {
+      background-color: darken($disabled, 20%);
+      box-shadow: none;
+    }
+  }
+  &:disabled{
+    color: #A4A4A4;
+    background-color: $disabled;
+    box-shadow: 0px 3px 0px darken($disabled, 0%);
+    &:active {
+      background-color: darken($disabled, 20%);
+      box-shadow: none;
+    }
+  }
+}
+
+
+

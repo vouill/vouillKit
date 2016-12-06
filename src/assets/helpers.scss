@@ -1,0 +1,102 @@
+.bordered {
+  border: 1px dimgrey solid;
+}
+
+.h-resizable {
+  position: relative;
+  overflow: scroll;
+  resize: horizontal;
+  &:after {
+    content: 'Resizable';
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 80%;
+  }
+}
+
+.v-resizable {
+  position: relative;
+  overflow: scroll;
+  resize: vertical;
+  &:after {
+    content: 'Resizable';
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 80%;
+  }
+}
+
+.resizable {
+  position: relative;
+  overflow: scroll;
+  resize: both;
+  &:after {
+    content: 'Resizable';
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 80%;
+  }
+}
+
+.width-phone {
+  width: 365px;
+}
+
+.width-tablet {
+  width: 768px;
+}
+
+.width-desktop {
+  width: 1024px;
+}
+
+.max-width-phone {
+  max-width: 365px;
+}
+
+.max-width-tablet {
+  max-width: 768px;
+}
+
+.max-width-desktop {
+  max-width: 1024px;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.fsb {
+  justify-content: space-between;
+}
+
+.fs {
+  justify-content: flex-start;
+}
+
+.fe {
+  justify-content: flex-end;
+}
+
+.fsa {
+  justify-content: space-around;
+}
+
+.fc {
+  justify-content: center;
+}
+
+.fg1 {
+  flex-grow: 1;
+}
+
+.fwrap {
+  flex-wrap: wrap;
+}
