@@ -121,7 +121,7 @@
       </pre>
       </div>
     <h2>Components</h2>
-    <h3>Modals</h3>
+    <h3 id="modals">Modals</h3>
     <p>Modals uses <a href="https://github.com/vouill/vue-geb"><strong>vue-geb</strong></a>. Hence no binding between modal and parent component.</p>
     <p>This means you can call any modals from anywhere</p>
     <button class="v-bttn" v-geb-click-emit="{id:'foo'}">Click here for modal foo</button>

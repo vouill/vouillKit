@@ -463,7 +463,11 @@ webpackJsonp([2,0],[
 	    }]
 	  }, ["\n    ", _vm._h('code', {
 	    staticClass: "html"
-	  }, ["<div class=\"nav h-equal-list\">\n    <div class=\"fullWidth\">\n      <ul class=\"h-list\">\n        <li><a>Home</a></li>\n        <li><a>Blog</a></li>\n        <li><a>About</a></li>\n      </ul>\n    </div>\n    <div class=\"fullWidth\">\n      <ul class=\"h-list--end\">\n        <li><a>Login</a></li>\n        <li><a>Info</a></li>\n        <li><a>Cart</a></li>\n      </ul>\n    </div>\n  </div>"]), "\n      "])]), " ", _vm._h('h2', ["Components"]), " ", _vm._h('h3', ["Modals"]), " ", _vm._m(4), " ", _vm._h('p', ["This means you can call any modals from anywhere"]), " ", _vm._h('button', {
+	  }, ["<div class=\"nav h-equal-list\">\n    <div class=\"fullWidth\">\n      <ul class=\"h-list\">\n        <li><a>Home</a></li>\n        <li><a>Blog</a></li>\n        <li><a>About</a></li>\n      </ul>\n    </div>\n    <div class=\"fullWidth\">\n      <ul class=\"h-list--end\">\n        <li><a>Login</a></li>\n        <li><a>Info</a></li>\n        <li><a>Cart</a></li>\n      </ul>\n    </div>\n  </div>"]), "\n      "])]), " ", _vm._h('h2', ["Components"]), " ", _vm._h('h3', {
+	    attrs: {
+	      "id": "modals"
+	    }
+	  }, ["Modals"]), " ", _vm._m(4), " ", _vm._h('p', ["This means you can call any modals from anywhere"]), " ", _vm._h('button', {
 	    directives: [{
 	      name: "geb-click-emit",
 	      rawName: "v-geb-click-emit",
@@ -663,4 +667,4 @@ webpackJsonp([2,0],[
 
 /***/ }
 ]);
-//# sourceMappingURL=app.b6fd44f64fcea79f0628.js.map
+//# sourceMappingURL=app.d4ddbf5be1d22df57167.js.map

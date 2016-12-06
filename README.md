@@ -6,4 +6,4 @@ Its a simple project to make a UI Kit with the Vue components.
 
 I will soon make it as a vue plugin to make it easy to install.
 
-Please don't use it for serious stuff
+Please don't use it for serious stuff.
