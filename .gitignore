@@ -8,3 +8,5 @@ selenium-debug.log
 .idea/
 /lib
 
+/vouill-vue-ui.js
+/vouill-vue-ui.js.map

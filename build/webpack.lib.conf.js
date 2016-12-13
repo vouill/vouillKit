@@ -9,7 +9,7 @@ var config = merge(baseWebpackConfig,{
   entry: path.resolve(__dirname, '../src/vouill.js'),
   devtool: 'source-map',
   output: {
-    path: path.resolve(__dirname, '../lib'),
+    path: path.resolve(__dirname, '../'),
     filename: outputFile,
     library: libraryName,
     libraryTarget: 'umd',

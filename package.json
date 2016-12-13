@@ -1,11 +1,11 @@
 {
   "name": "vouill-vue-ui",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Vue UI kit",
   "author": "Vouill <vouillon.thibaud@gmail.com>",
-  "main": "./lib/vouill-vue-ui.js",
+  "main": "vouill-vue-ui.js",
   "files": [
-    "./lib/vouill-vue-ui.js"
+    "vouill-vue-ui.js"
   ],
   "description": "A simple Ui Kit using vue and vue-geb",
   "license": "WTFPL",

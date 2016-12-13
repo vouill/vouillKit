@@ -13,9 +13,9 @@ npm install --save vouill-vue-ui
 
 In your `main.js` :
 ```
-import vue-vouill from 'vouill-vue-ui'
+import vuevouill from 'vouill-vue-ui'
 
-Vue.use(vue-vouill)
+Vue.use(vuevouill)
 ```
 
 Please don't use it for serious stuff.
